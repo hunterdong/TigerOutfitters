@@ -10,7 +10,8 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="{{ route('gallery') }}"><i class="fa fa-picture-o fa-fw"></i> {{ t('Gallery') }}</a></li>
+                <!-- <li><a href="{{ route('gallery') }}"><i class="fa fa-picture-o fa-fw"></i> {{ t('Gallery') }}</a></li> -->
+                <li><a href="{{ route('gallery') }}"><i class="fa fa-picture-o fa-fw"></i> {{'Items for Sale'}}</a></li>
                 <li><a href="{{ route('users') }}"><i class="fa fa-users fa-fw"></i> {{ t('Users') }}</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list fa-fw"></i> {{ t('Categories') }}<b class="caret"></b></a>
