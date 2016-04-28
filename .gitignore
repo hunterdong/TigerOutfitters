@@ -4,3 +4,6 @@
 /.idea
 Homestead.yaml
 .env
+bootstrap/cache/config.php
+bootstrap/cache/routes.php
+.env
